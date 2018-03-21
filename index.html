@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>My App</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+    <script src="applab/applab-api.js"></script>
+    <link rel="stylesheet" href="applab/applab.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="divApplab" class="appModern running" tabindex="1" style="width: 320px; height: 450px; display: block;"><div class="screen" tabindex="1" id="welcome_screen">
+    <button id="start_button">Start!</button>
+    <label id="name_label">Banana Clicker</label>
+    <label id="welcome_label">The goal of this game is to try and catch the banana. You only have 3 lives, so make the most of it and try to get a good score! Can you reach a score of 50?</label>
+  </div><div class="screen" tabindex="1" id="game_screen">
+    <img src="assets/banana-chase_background.jpeg" id="background" data-canonical-image-url="banana-chase_background.jpeg">
+    <label id="score_description">Score:</label>
+    <label id="score">0</label>
+    <label id="lives_description">Lives:</label>
+    <label id="lives">3</label>
+    <img src="assets/Banana_tochase.jpg" id="Banana" data-canonical-image-url="Banana_tochase.jpg">
+  </div><div class="screen" tabindex="1" id="win_screen">
+    <label id="win_label">Congrats! You have won Banana Clicker! to play again, place click the button below!</label>
+    <button id="playAgain_button">Play again!</button>
+  <label id="you_win">You Win!</label></div><div class="screen" tabindex="1" id="lose_screen">
+    <label id="lose_label">Better luck next time! to go to the home screen, hit the start over button bellow</label>
+    <button id="tryAgain_button">Try again!</button>
+  </div></div>
+    <script src="code.js"></script>
+  </body>
+</html>
